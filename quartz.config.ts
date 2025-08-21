@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Saturnschick",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -81,7 +81,7 @@ const config: QuartzConfig = {
       Plugin.FolderPage(),
       Plugin.TagPage(),
       Plugin.ContentIndex({
-        enableSiteMap: false,
+        enableSiteMap: true,
         enableRSS: true,
       }),
       Plugin.Assets(),
